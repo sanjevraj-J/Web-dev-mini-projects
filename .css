@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.bottle {
+    width: 50px;
+    height: 120px;
+    background-color: #007bff;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.5s;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 24px;
+    color: #333;
+}
